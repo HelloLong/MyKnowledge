@@ -1,0 +1,70 @@
+javascrip高级编程
+.net本质论
+代码大全
+
+lizard剖析
+html5
+angular.js
+nodejs
+Vue.js 
+rect.js
+python
+php
+f#
+
+carframework         
+	smarttheadpool  http://smartthreadpool.codeplex.com/
+Resharper熟练使用
+cservicestack
+log
+dal
+IntelliJ IDEA 
+
+
+
+debuge
+dump分析
+
+using bfg to delete
+
+spark
+hermes
+
+
+Excel分析
+
+mysql
+    安装（必知必会过一遍）  
+    MySQL_5.5中文参考手册
+    高性能MySQL.pdf
+
+redis实战
+
+
+
+
+前端书单
+因为我现在前端是前偏后，鹅厂的分工也是前端不照顾css，所以这里我就只推荐js和node相关的书籍了。
+首先是工具书， 这类书就是做字典用，覆盖面广，随时放在手边查阅：
+《 js高级程序设计》
+其次是进阶：
+《cdth忍者秘籍》：
+《编写可维护的cdth》：推荐，学习代码复用和整洁之道
+《高性能cdth》：推荐
+《你所不知道的cdth（上）》：这本书真的是强烈推荐，闭包，this，prototype这些js的核心概念真是看了这本书才通透的，这本书来自于github这个开源项目，You dont know js:https://github.com/getify/You-Dont-Know-JS
+《cdth模式》：将设计模式的，推荐。同组的实习生给我推荐过腾讯曾探写的《cdth设计模式与开发实践》，我翻看了一下，写的很好。
+《cdth函数式编程》：函数式编程近年来大热，但是这本书翻译的极烂，要了解js函数式编程的有下面两个渠道：1. 阅读underscore源码，尤其函数那部分的 2.阅读这本gitbook：https://www.gitbook.com/book/drboolean/mostly-adequate-guide/details
+
+JS方面，MDN一定是首推，覆盖面很广。
+
+Node：
+《深入浅出Nodejs》：朴灵写的，很有深度，其实大家js或者node遇到问题可以知乎问朴灵的，人很好
+《Nodejs实战》：偏应用，边看边上手。
+
+机器学习：
+《机器学习实战》：实战动手
+Coursera，斯坦福的吴恩达的机器学习课程：吴恩达讲课很通俗，也不失细致，强推，Coursera上的课都有习题，可以跟着练练。9月份回学校我也准备再刷一遍。
+
+其他的诸如《数字图像处理》这类领域类经典书籍就不细说了，给更专业的推荐。《HTTP权威指南》这样的经典著作也不说了，知乎很多书单。
+
+test test bfg

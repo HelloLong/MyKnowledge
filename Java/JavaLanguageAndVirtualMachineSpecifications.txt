@@ -1,0 +1,17 @@
+Á´½Ó£ºhttps://docs.oracle.com/javase/specs/index.html
+Java Language and Virtual Machine Specifications
+Java SE 8
+documentation iconThe Java Language Specification, Java SE 8 Edition
+HTML | PDF
+documentation iconThe Java Virtual Machine Specification, Java SE 8 Edition
+HTML | PDF
+Java SE 7
+documentation iconThe Java Language Specification, Java SE 7 Edition
+HTML | PDF
+documentation iconThe Java Virtual Machine Specification, Java SE 7 Edition
+HTML | PDF | Update (March 2015)
+Java SE 6
+documentation iconThe Java Language Specification, Third Edition
+HTML | PDF
+documentation iconThe Java Virtual Machine Specification, Second Edition
+HTML | Update (SE 5.0) | Update (SE 6) | Update (March 2015)
