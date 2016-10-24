@@ -1,0 +1,11 @@
+问题解决
+一、mvn 创建时在generating project in interactive mode卡住了，怎么解决？
+
+方案：
+mvn archetype:generate -DarchetypeCatalog=internal  这条命令证明是有效的 
+
+参考解决方案
+mvn archetype:generate -X （后面追加-X参数即可）
+本人在-DinteractiveMode=false下，设置maven不要从远程服务器上获取catalog，增加参数-DarchetypeCatalog=internal后解决卡住问题。
+http://www.imooc.com/qadetail/105579
+http://blog.csdn.net/u011303778/article/details/46534601 //未尝试
