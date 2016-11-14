@@ -1,0 +1,26 @@
+架构设计基础知识整理
+https://blog.dreamtobe.cn/2016/10/25/oo_architecture/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
+
+浅析分布式系统
+http://wetest.qq.com/lab/view/203.html?from=content_toutiao&hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
+
+React Native常见错误与示例
+https://toutiao.io/subjects/84686?page=2
+
+微信小程序Demo--仿知乎
+https://zhuanlan.zhihu.com/p/23394858?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
+
+三十分钟学会AWK
+https://segmentfault.com/a/1190000007338373?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
+
+优雅地实现 TCP 压缩传输
+http://colobu.com/2016/11/04/create-a-compressed-TCP-by-Go/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
+
+知其所以然之永不遗忘的算法
+http://selfboot.cn/2015/11/03/howto_find_algorithm/?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
+
+图形化排序算法比较：快速排序、插入排序、选择排序、冒泡排序
+http://www.jianshu.com/p/70619984fbc6?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io
+
+区块链——2016最耀眼的新兴技术之一
+http://mp.weixin.qq.com/s?__biz=MzI3MzEzMDI1OQ==&mid=2651815383&idx=1&sn=dd55f73df9f054b4d1354675f76b2f61
