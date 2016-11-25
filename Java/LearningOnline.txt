@@ -5,3 +5,9 @@ https://blog.my-eclipse.cn/jdk-install-classpath.html
 
 Maven多模块项目介绍和搭建
 https://my.oschina.net/lujianing/blog/354121
+
+
+JAVA程序员一定知道的优秀第三方库（2016版）
+http://www.jianshu.com/p/ec517bb2fcfa
+GitHub 上那些值得一试的 Java 开源库
+http://www.oschina.net/news/75257/github-java-opensource-library
