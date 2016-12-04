@@ -1,0 +1,8 @@
+https://segmentfault.com/q/1010000003767098
+react-native init 命令创建项目需要等多久才能创建好？
+
+http://www.cnblogs.com/liquanchun/p/6034410.html
+第一个React Native程序踩到的那些坑
+
+React-Native痛点解析之开发环境搭建及扩展
+http://www.infoq.com/cn/articles/react-native-solution-dev-environment
