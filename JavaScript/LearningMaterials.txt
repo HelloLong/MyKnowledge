@@ -6,3 +6,6 @@ https://babeljs.io/
 
 淘宝npm镜像
 http://www.cnblogs.com/trying/p/4064518.html
+
+react-native init 命令创建项目需要等多久才能创建好？
+https://segmentfault.com/q/1010000003767098
