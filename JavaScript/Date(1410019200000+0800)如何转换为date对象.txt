@@ -1,0 +1,12 @@
+/Date(1410019200000+0800)/ 是通过
+
+方法一：
+eval(value.replace(/\/Date\((\d+)\)\//gi, "new Date($1)"))
+得到的
+其中的value是json序列化日期后的东西
+再通过一个date的扩展方法转换为人能看懂的时间字符串
+
+方法二：
+s = '/Date(1482933600000-0000)/ ';
+s.replace(/Date\([\d+]+\)/, function(a) { eval('d = new '+a) });
+d;
