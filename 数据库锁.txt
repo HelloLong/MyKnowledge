@@ -1,0 +1,12 @@
+Mysql查询语句使用select.. for update导致的数据库死锁分析
+http://www.cnblogs.com/Lawson/archive/2015/11/30/5008741.html
+
+
+
+mysql乐观锁总结和实践
+http://chenzhou123520.iteye.com/blog/1863407
+
+
+
+使用Redis SETNX 命令实现分布式锁
+http://blog.csdn.net/lihao21/article/details/49104695

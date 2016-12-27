@@ -1,0 +1,2 @@
+如果两个Lock 锁定用同一个Static Object 
+那么这连个Lock 锁定的代码是否互斥
