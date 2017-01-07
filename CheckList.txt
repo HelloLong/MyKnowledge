@@ -1,0 +1,3 @@
+通读发布代码
+
+检查while语句 是否都有checkcount
