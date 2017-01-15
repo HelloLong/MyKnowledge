@@ -6,6 +6,9 @@
   <!-- Bootstrap --> 
   <link href="src/css/bootstrap.min.css" rel="stylesheet" /> 
   <link href="./src/css/staticFcssFlanding-page.css" rel="stylesheet" type="text/css" /> 
+  <link href="src/css/slides.css" rel="stylesheet" /> 
+  <link href="src/css/homePage.css" rel="stylesheet" /> 
+
  </head> 
  <body> 
   <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation"> 
@@ -19,10 +22,10 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"> 
      <ul class="nav navbar-nav navbar-right"> 
       <!--<ul class="nav navbar-nav navbar-left">--> 
-      <li> <a href="/">首页</a> </li> 
-      <li> <a href="/booking">酒店预定</a> </li> 
-      <li> <a href="/travelTips">查看攻略</a> </li> 
-      <li> <a href="/experienceLife">体验当地生活</a> </li> 
+      <li> <a href="./homePage.html">首页</a> </li> 
+      <li> <a href="#booking">酒店预定</a> </li> 
+      <li> <a href="./travelTips.html">查看攻略</a> </li> 
+      <li> <a href="./experienceLife.html">体验当地生活</a> </li> 
      </ul> 
     </div> 
    </div> 
@@ -36,7 +39,7 @@
        <h1>小辣喵的西塘助攻</h1> 
        <hr class="intro-divider" /> 
        <ul class="list-inline intro-social-buttons"> 
-        <li> <a href="#booking" class="btn btn-default btn-lg"><i class="fa fa-send fa-fw"></i> <span class="network-name">酒店预定</span></a> </li> 
+        <li> <a href="#booking" class="btn btn-default btn-lg"><i class="fa fa-send fa-fw"></i> <span class="network-name">客栈预定</span></a> </li> 
         <li> <a href="#travelTips" class="btn btn-default btn-lg"><i class="fa fa-tv fa-fw"></i> <span class="network-name">查看攻略</span></a> </li> 
         <li> <a href="#experienceLife" class="btn btn-default btn-lg"><i class="fa fa-line-chart fa-fw"></i> <span class="network-name">体验当地生活</span></a> </li> 
        </ul> 
@@ -47,33 +50,52 @@
    <!-- /.container --> 
   </div> 
   <!-- Page Content --> 
+  
+   <!-- /.content-section-a --> 
   <a name="booking"></a> 
-  <div class="content-section-a"> 
+  <div class="content-section-b"> 
    <div class="container"> 
     <div class="row"> 
-     <div class="col-lg-5 col-sm-6"> 
+     <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6"> 
       <hr class="section-heading-spacer" /> 
       <div class="clearfix"></div> 
-      <h2 class="section-heading"><i class="fa fa-send fa-fw"></i>酒店预定</h2> 
-      <h4 class="section-heading2">实时酒店预定</h4> 
+      <h2 class="section-heading"><span style="color:red;">¥600&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span><span style="color:black;font-size:20px;">每晚</span></h2> 
+      <a class="btn btn-default btn-sm btn-selected room_name" data-room="bigRoomByRiver"><span class="network-name ">临河观景大阳台</span></a>
+	  <a class="btn btn-default btn-sm room_name" data-room="butyRoomByRiver"><span class="network-name">临河美人靠</span></a>
+	  <a class="btn btn-default btn-sm room_name" data-room="familyRoomByRiver"><span class="network-name">临河家庭套房</span></a>
+	  <br />
+	  <a class="btn btn-default btn-sm room_name" data-room="smallRoomByRiver"><span class="network-name">临河观景小阳台</span></a>
+	  <a class="btn btn-default btn-sm room_name" data-room="rockingChairRoomByRiver"><span class="network-name">临河精品房</span></a>
+	  <a class="btn btn-default btn-sm room_name" data-room="grandMasInn"><span class="network-name">奶奶家的临河屋子</span></a>
       <p class="lead"> </p>
-      <li style="line-height:2.0;font-size:16px"> 临河观景大阳台 </li> 
-      <li style="line-height:2.0;font-size:16px"> 临河观景小阳台 </li> 
-      <li style="line-height:2.0;font-size:16px"> 临河美人靠 </li> 
+      <div> 
+		<div class="col-lg-4 col-sm-4">1.8米*1</div>    
+		<div class="col-lg-4 col-sm-4">可住2人</div>   
+		<div class="col-lg-4 col-sm-4">免费接站</div> 
+		<div class="col-lg-4 col-sm-4">位于二楼</div>   
+		<div class="col-lg-4 col-sm-4">高速wifi</div>   
+		<div class="col-lg-4 col-sm-4">半价门票</div> 
+	  </div>
       <p></p> 
       <br /> 
       <ul class="list-inline intro-social-buttons"> 
-       <li> <a href="#subscribe" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">前往预定</span></a> </li> 
+       <li> <a href="#join-group" class="btn btn-default btn-lg"><i class="fa fa-qq fa-fw"></i>／<i class="fa fa-wechat fa-fw"></i> <span class="network-name">立即查看</span></a> </li> 
       </ul> 
      </div> 
-     <div id="box" class="col-lg-5 col-lg-offset-2 col-sm-6"> 
-      <br /> 
-      <img class="img-responsive" src="http://source.wublogpush.com/static%2Fimg%2Fipad-pushes.png" alt="" /> 
+     <div class="col-lg-5 col-sm-pull-6  col-sm-6"> 
+		<br /> 
+		<div class="slidescontainer">
+			<div id="slides">
+			  <img src="src/img/room/bigRoomByRiver/0.jpg" class="slideImg">
+			  <img src="src/img/room/bigRoomByRiver/1.jpg" class="slideImg">
+			</div>
+		</div>
      </div> 
     </div> 
    </div> 
    <!-- /.container --> 
   </div> 
+  
   <!-- /.content-section-a --> 
   <a name="travelTips"></a> 
   <div class="content-section-b"> 
@@ -103,25 +125,26 @@
   </div> 
   <!-- /.content-section-b --> 
   <a name="experienceLife"></a> 
-  <div class="content-section-a"> 
+  <div class="content-section-b"> 
    <div class="container"> 
     <div class="row"> 
-     <div class="col-lg-5 col-sm-6"> 
+     <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6"> 
       <hr class="section-heading-spacer" /> 
       <div class="clearfix"></div> 
-      <h2 class="section-heading"><i class="fa fa-line-chart fa-fw"></i>体验当地生活</h2> 
-      <h4 class="section-heading2">体验西塘当地生活</h4> 
+      <h2 class="section-heading"><i class="fa fa-television fa-fw"></i>体验当地生活</h2> 
+      <h4 class="section-heading2">盘点西塘攻略</h4> 
       <p class="lead"> </p>
-      <li style="line-height:2.0;font-size:16px"> 跟外婆学包粽子 </li>  
+      <li style="line-height:2.0;font-size:16px"> 西塘懒人攻略【两天一晚游西塘] </li> 
+      <li style="line-height:2.0;font-size:16px"> 【别再问什么季节来西塘最棒啦】 </li> 
       <p></p> 
       <br /> 
       <ul class="list-inline intro-social-buttons"> 
-       <li> <a href="positions" class="btn btn-default btn-lg"><i class="fa fa-eye fa-fw"></i> <span class="network-name">立即报名</span></a> </li> 
+       <li> <a href="#join-group" class="btn btn-default btn-lg"><i class="fa fa-qq fa-fw"></i>／<i class="fa fa-wechat fa-fw"></i> <span class="network-name">立即查看</span></a> </li> 
       </ul> 
      </div> 
-     <div class="col-lg-5 col-lg-offset-2 col-sm-6"> 
+     <div class="col-lg-5 col-sm-pull-6  col-sm-6"> 
       <br /> 
-      <img class="img-responsive" src="http://source.wublogpush.com/static%2Fimg%2Fimac-positions.png" alt="" /> 
+      <img class="img-responsive" src="http://source.wublogpush.com/static%2Fimg%2Fiphone6s-live.png" alt="" /> 
      </div> 
     </div> 
    </div> 
@@ -221,7 +244,7 @@
        <li class="footer-menu-divider">⋅</li> 
        <li> <a href="/about">关于</a> </li> 
       </ul> 
-      <p class="copyright text-muted small">Copyright &copy; 2015-2016 小王子推送 | 苏ICP备15049508号 -- <script language="javascript" type="text/javascript" src="http://js.users.51.la/18957446.js"></script> 
+      <p class="copyright text-muted small">Copyright &copy; 2015-2016 小王子推送 | 苏ICP备15049508号 </script> 
        <noscript>
         <a href="http://www.51.la/?18957446" target="_blank"><img alt="我要啦免费统计" src="http://img.users.51.la/18957446.asp" style="border:none" /></a>
        </noscript> </p> 
@@ -229,26 +252,33 @@
     </div> 
    </div> 
   </footer> 
+  
+  <script src="src/js/jquery.min.js"></script> 
+  <script src="src/js/jquery.slides.min.js"></script>
   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-75311298-1', 'auto');
-  ga('send', 'pageview');
-
+    $(function() {
+      $('#slides').slidesjs({
+        width: 50,
+        height: 30,
+        play: {
+          active: true,
+          auto: true,
+          interval: 2000,
+          swap: true
+        }
+      });
+    });
+  </script>
+  <script src="src/js/bootstrap.min.js"></script> 
+  <script src="src/js/staticjquery.bootstrap-autohidingnavbar.js"></script> 
+  <script src="src/js/homePage.js"></script> 
+  <script>
 </script> 
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
-  <script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script> 
-  <meta name="baidu-site-verification" content="WpNJO5aoPl" /> 
-  <!-- Bootstrap Core CSS --> 
   <!-- Custom CSS --> 
-  <script src="http://source.wublogpush.com/static%2Fjs%2Fjquery.bootstrap-autohidingnavbar.js"></script> 
   <script>$("nav.navbar-fixed-top").autoHidingNavbar();</script> 
   <script src="http://source.wublogpush.com/static%2Fjs%2Fscript.js"></script> 
   <!-- Custom Fonts --> 
-  <link href="http://www.wublogpush.com/static/./font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" /> 
+  <link href="src/css/font-awesome.min.css" rel="stylesheet" type="text/css" /> 
   <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css" />   
  </body>
 </html>
