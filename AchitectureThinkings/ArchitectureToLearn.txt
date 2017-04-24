@@ -1,0 +1,4 @@
+http://blog.csdn.net/kingzone_2008/article/details/8501376
+
+CAP原理和BASE思想
+
